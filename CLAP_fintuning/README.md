@@ -33,7 +33,7 @@ bash experiment_scripts/local_finetune_iemocap.sh
 Inference on IEMOCAP is run with:
 
 ```bash
-bash inference_iemocap.sh
+bash experiment_scripts/inference_iemocap.sh
 ```
 
 Before running, download the pretrained weights from the [Google Drive folder](https://drive.google.com/drive/folders/1lTUTnDLADJvHZ_KBIRr4Bp4yiP9i8Ro_):
