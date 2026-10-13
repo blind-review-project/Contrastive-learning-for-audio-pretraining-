@@ -26,8 +26,6 @@ Modify the configuration files under `experiment_scripts` and `class_label` acco
 
 ```bash
 bash experiment_scripts/local_finetune_iemocap.sh
-# or
-bash experiment_scripts/local_train_iemocap.sh
 ```
 
 
@@ -53,6 +51,6 @@ Then set the following hyperparameters in the script:
 
 
 ## Dataset Note
-Since CLEP is built on top of the CLAP framework, before attempting any training or inference, please make sure to convert your audio dataset into the WebDataset format required by CLAP. Otherwise, both CLAP and CLEP models will not be able to properly load or process the data.
+Since CLEP is built on top of the CLAP framework, before attempting any training or inference, please make sure to convert your audio dataset into the WebDataset format required by CLAP. **Otherwise, both CLAP and CLEP models will not be able to properly load or process the data.**
 
 
